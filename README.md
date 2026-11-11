@@ -63,8 +63,11 @@ with calibrated probabilities. The page is built with Streamlit.
    source venv/bin/activate     # Mac and Linux
    ```
 3. Install the packages:
-   ```bash
-   pip install -r requirements.txt
+   ```
+   scikit-learn==1.7.2
+   numpy==2.3.5
+   joblib==1.5.2
+   streamlit==1.51.0
    ```
 4. Start the app:
    ```bash
