@@ -34,8 +34,12 @@ with calibrated probabilities. The web page is built with Streamlit.
    source venv/bin/activate     # Mac / Linux
    ```
 3. Install the packages:
-   ```bash
-   pip install -r requirements.txt
+   ```
+   import sklearn, numpy, joblib, streamlit
+print("scikit-learn==" + sklearn.__version__)
+print("numpy==" + numpy.__version__)
+print("joblib==" + joblib.__version__)
+print("streamlit==" + streamlit.__version__)
    ```
 4. Start the app:
    ```bash
