@@ -36,10 +36,10 @@ with calibrated probabilities. The web page is built with Streamlit.
 3. Install the packages:
    ```
    import sklearn, numpy, joblib, streamlit
-print("scikit-learn==" + sklearn.__version__)
-print("numpy==" + numpy.__version__)
-print("joblib==" + joblib.__version__)
-print("streamlit==" + streamlit.__version__)
+   print("scikit-learn==" + sklearn.__version__)
+   print("numpy==" + numpy.__version__)
+   print("joblib==" + joblib.__version__)
+   print("streamlit==" + streamlit.__version__)
    ```
 4. Start the app:
    ```bash
